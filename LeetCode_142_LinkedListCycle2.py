@@ -28,3 +28,7 @@ class Solution(object):
             return fast
         except:
             return None
+
+if __name__ == "__main__":
+    solution = Solution()
+    solution.detectCycle(head=)
