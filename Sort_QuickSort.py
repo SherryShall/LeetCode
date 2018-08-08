@@ -24,8 +24,8 @@ def act_quick_sort(start, end, array):
     if i == k:
         return
     array[i], array[k] = array[k], array[i]
-    print(start, i)
-    print(i, end)
+    # print(start, i)
+    # print(i, end)
     act_quick_sort(start, i-1, array)
     act_quick_sort(i+1, end, array)
 
