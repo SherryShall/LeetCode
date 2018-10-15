@@ -30,7 +30,7 @@ class Solution(object):
 		# N个结点分K个链表
 		# 归并 O(NK) %7.46
 		# return self.mergeSortMethod(lists)
-		
+
 		# 最小优先队列 O((N+K)lgK  一次建堆 KlgK + N次维护 N*lgK   N>=K  时间复杂度≈O(NlogK)
 		# 12.25%
 		return self.minHeapMethod(lists)
